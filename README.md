@@ -44,6 +44,7 @@ all the value above is default value.
             }
         });
         mLoopView.setData(Arrays.asList(DATA_SOURCE));
-        
 
-        
+### Gradle:
+
+		compile 'io.github.lonelylonelygod:parallaxlooppager:0.1.0'
