@@ -1,6 +1,9 @@
 ## ParallaxLoopPager
 a auto scroll viewpager with parallax effect
 
+## Sample
+<img src="https://raw.githubusercontent.com/lonelylonelygod/parallaxlooppager/master/sample.gif">
+
 ## Usage
 
 
