@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:parallaxLoopPager="http://schemas.android.com/apk/res-auto"
+    tools:context="io.github.lonelylonelygod.parallaxlooppager.sample.MainActivity">
+
+    <io.github.lonelylonelygod.parallaxlooppager.ParallaxLoopPager
+        android:id="@+id/pager_main"
+        parallaxLoopPager:autoLoop="true"
+        parallaxLoopPager:interval="5000"
+        parallaxLoopPager:startDelay="2000"
+        parallaxLoopPager:showIndicator="true"
+        parallaxLoopPager:indicatorMargin="8dp"
+        parallaxLoopPager:selectDrawable="@drawable/circle_indicator_selected"
+        parallaxLoopPager:unSelectDrawable="@drawable/circle_indicator_unselected"
+        parallaxLoopPager:indicatorPosition="right"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"/>
+
+</RelativeLayout>

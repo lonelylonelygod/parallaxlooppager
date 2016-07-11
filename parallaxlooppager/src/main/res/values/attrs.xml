@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ParallaxLoopPager">
+        <attr name="autoLoop" format="boolean"/>
+        <attr name="showIndicator" format="boolean"/>
+        <attr name="interval" format="integer"/>
+        <attr name="startDelay" format="integer"/>
+        <attr name="selectDrawable" format="reference"/>
+        <attr name="unSelectDrawable" format="reference"/>
+        <attr name="indicatorMargin" format="dimension"/>
+        <attr name="indicatorPosition" format="enum">
+            <enum name="right" value="0"/>
+            <enum name="left" value="1"/>
+            <enum name="center" value="2"/>
+        </attr>
+    </declare-styleable>
+</resources>
